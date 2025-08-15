@@ -1,7 +1,7 @@
 import React, { useState, useRef , useEffect} from "react";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:8000";
-
+console.log("HEHENWEWE")
 console.log(BACKEND_URL)
 
 // Full language list
@@ -128,6 +128,7 @@ export default function App() {
   return (
     <div style={{ maxWidth: 720, margin: "24px auto", padding: 16, fontFamily: "Inter, Arial, sans-serif" }}>
       <h1>Healthcare Translation AI</h1>
+      <h1>BACKEND_URL</h1>
 
       {/* Language Select */}
       <div style={{ display: "flex", gap: 8, marginBottom: 12, flexWrap: "wrap" }}>
