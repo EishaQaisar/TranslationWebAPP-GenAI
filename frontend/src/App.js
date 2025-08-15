@@ -13,7 +13,6 @@ const LANG_OPTIONS = [
   { code: "zh", label: "Chinese", flag: "🇨🇳" },
   { code: "fr", label: "French", flag: "🇫🇷" },
   { code: "de", label: "German", flag: "🇩🇪" },
-  { code: "it", label: "Italian", flag: "🇮🇹" },
   { code: "ar", label: "Arabic", flag: "🇸🇦" },
   { code: "hi", label: "Hindi", flag: "🇮🇳" },
   { code: "ja", label: "Japanese", flag: "🇯🇵" },
@@ -23,7 +22,7 @@ const LANG_OPTIONS = [
 // Map of valid translations (keep your existing logic)
 const VALID_TARGETS = {
   en: ["es", "ru", "zh", "hi", "ar", "fr"],
-  es: ["en"],
+  es: [""],
   ru: ["en", "zh", "hi"],
   zh: ["en", "ru", "es", "fr", "hi", "ar", "ja"],
   fr: ["en", "zh", "hi"],
