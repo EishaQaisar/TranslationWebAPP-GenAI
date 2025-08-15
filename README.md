@@ -17,27 +17,6 @@ Built with React (frontend), FastAPI (backend), and Hugging Face NLP models, dep
 🛡 Privacy-Friendly – No storage of patient speech or translation data.
 
 
-🗂 Code Structure
-
-
-Frontend (React – /src)
-
-src/App.js – Main app logic (voice input, translation requests, UI updates).
-
-src/App.css – Styling for mobile-first, responsive layout.
-
-src/index.js – React entry point.
-
-public/index.html – HTML template.
-
-.env – Stores REACT_APP_BACKEND_URL for backend connection.
-
-
-Backend (FastAPI)
-
-main.py – Translation API logic, language validation, Hugging Face integration.
-
-/translate – Main endpoint for translation requests.
 
 
 
@@ -52,6 +31,7 @@ Deployment: Vercel (frontend), Railway (backend)
 
 
 📦 Installation & Setup
+
 1️⃣ Clone the repository
 git clone https://github.com/yourusername/healthcare-translation-app.git
 cd healthcare-translation-app
