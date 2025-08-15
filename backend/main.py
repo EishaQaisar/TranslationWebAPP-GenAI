@@ -58,6 +58,7 @@ def call_hf_model(text, src, tgt):
 
 @app.post("/translate")
 async def translate(payload: TranslateIn):
+    print("reached")
     text = payload.text.strip()
     src = payload.src_lang.strip().lower()
     tgt = payload.tgt_lang.strip().lower()
