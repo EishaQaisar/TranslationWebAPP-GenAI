@@ -17,8 +17,7 @@ const LANG_OPTIONS = [
   { code: "ar", label: "Arabic", flag: "🇸🇦" },
   { code: "hi", label: "Hindi", flag: "🇮🇳" },
   { code: "ja", label: "Japanese", flag: "🇯🇵" },
-  { code: "ko", label: "Korean", flag: "🇰🇷" },
-  { code: "ur", label: "Urdu", flag: "🇵🇰" },
+
 ]
 
 // Map of valid translations (keep your existing logic)
