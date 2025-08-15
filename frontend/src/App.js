@@ -129,6 +129,8 @@ export default function App() {
     <div style={{ maxWidth: 720, margin: "24px auto", padding: 16, fontFamily: "Inter, Arial, sans-serif" }}>
       <h1>Healthcare Translation AI</h1>
       <h1>BACKEND_URL</h1>
+      <h1>Healthcare Translation AI</h1>
+
 
       {/* Language Select */}
       <div style={{ display: "flex", gap: 8, marginBottom: 12, flexWrap: "wrap" }}>
