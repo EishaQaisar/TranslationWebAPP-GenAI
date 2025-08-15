@@ -176,7 +176,6 @@ export default function App() {
       </div>
 
       <p style={{ marginTop: 12, color: "#666", fontSize: 13 }}>
-        Speak to enter text. Only supported translations are shown in the "To" dropdown.
       </p>
     </div>
   );
