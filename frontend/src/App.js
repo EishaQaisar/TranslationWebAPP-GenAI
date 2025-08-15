@@ -3,7 +3,7 @@ import React, { useState, useRef , useEffect} from "react";
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:8000";
 console.log("HEHENWEWE")
 console.log(BACKEND_URL)
-
+console.log(process.env.REACT_APP_BACKEND_URL)
 // Full language list
 const LANG_OPTIONS = [
   { code: "en", label: "English" },
@@ -130,6 +130,7 @@ export default function App() {
       <h1>Healthcare Translation AI</h1>
       <h1>BACKEND_URL{BACKEND_URL}</h1>
       <h1>Healthcare Translation AI</h1>
+      <h1>efwef {process.env.REACT_APP_BACKEND_URL}</h1>
 
 
       {/* Language Select */}
