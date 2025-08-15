@@ -167,7 +167,7 @@ export default function App() {
         </div>
 
         <div style={{ background: "#fff", padding: 12, borderRadius: 8 }}>
-          <h3>Translated ({tgtLang})</h3>
+          <h3>Translatttttted ({tgtLang})</h3>
           <textarea value={translated} readOnly style={{ width: "100%", minHeight: 160 }} />
           <button onClick={() => speakText(translated, tgtLang)} disabled={!translated} style={{ marginTop: 8, padding: "8px 12px" }}>
             🔊 Speak Translation
