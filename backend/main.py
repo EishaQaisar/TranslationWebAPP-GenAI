@@ -5,6 +5,10 @@ import requests
 import os
 from functools import lru_cache
 
+#uncomment the follwing when running locally
+#from dotenv import load_dotenv
+#load_dotenv()
+
 
 app = FastAPI(title="Healthcare Translation Proxy")
 
@@ -16,6 +20,7 @@ app.add_middleware(
 )
 
 HF_API_TOKEN = os.getenv("HF_API_TOKEN")
+print("HF token in backend:", os.getenv("HF_API_TOKEN"))
 
 # Expanded list of supported languages (ISO 639-1 codes)
 SUPPORTED_LANGS = [

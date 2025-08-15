@@ -1,13 +1,8 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef , useEffect} from "react";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:8000";
 
-useEffect(() => {
-  fetch(process.env.REACT_APP_BACKEND_URL + "/health")
-    .then(res => res.text())
-    .then(data => console.log("Backend response:", data))
-    .catch(err => console.error("Backend connection error:", err));
-}, []);
+console.log(BACKEND_URL)
 
 // Full language list
 const LANG_OPTIONS = [
