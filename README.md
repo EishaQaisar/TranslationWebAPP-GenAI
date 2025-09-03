@@ -4,9 +4,9 @@
 
 A **real-time multilingual translation tool** that leverages Generative AI, speech recognition, and text-to-speech to make communication seamless across languages.
 
-
 Built with **React (frontend)**, **FastAPI (backend)**, and **Hugging Face NLP models**, deployed on **Vercel** and **Railway**.  
 Includes **speech-to-text** using the **Web Speech API** and **text-to-speech** using the **SpeechSynthesis API** for a fully interactive voice experience.
+
 ---
 
 ## 🚀 Features
