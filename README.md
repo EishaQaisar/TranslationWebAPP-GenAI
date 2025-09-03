@@ -1,65 +1,75 @@
-🏥 Healthcare Translation Web App
+# 🏥 Translation Web App
 
-A real-time multilingual healthcare translation tool that uses Generative AI, speech recognition, and text-to-speech to bridge communication gaps between healthcare providers and patients.
-
-Built with React (frontend), FastAPI (backend), and Hugging Face NLP models, deployed on Vercel and Railway.
-
-🚀 Features
-
-🎙 Voice-to-Text with Generative AI – Converts spoken medical terms into accurate transcripts.
-
-🌐 Real-Time Translation – AI-powered translations using Helsinki-NLP models.
-
-🔊 Audio Playback – Listen to translations with natural-sounding text-to-speech.
-
-📱 Mobile-First UI – Responsive design for both desktop and mobile use.
-
-🛡 Privacy-Friendly – No storage of patient speech or translation data.
+A **real-time multilingual translation tool** that leverages Generative AI, speech recognition, and text-to-speech to make communication seamless across languages.
 
 
+Built with **React (frontend)**, **FastAPI (backend)**, and **Hugging Face NLP models**, deployed on **Vercel** and **Railway**.  
+Includes **speech-to-text** using the **Web Speech API** and **text-to-speech** using the **SpeechSynthesis API** for a fully interactive voice experience.
+---
 
+## 🚀 Features
 
+- 🎙 **Voice-to-Text with Generative AI** – Converts spoken medical terms into accurate transcripts  
+- 🌐 **Real-Time Translation** – AI-powered translations using Helsinki-NLP models  
+- 🔊 **Audio Playback** – Listen to translations with natural-sounding text-to-speech  
+- 📱 **Mobile-First UI** – Fully responsive design for desktop and mobile use  
+- 🛡 **Privacy-Friendly** – No storage of patient speech or translation data  
 
-🔧 Technologies Used
+---
 
-Frontend: React, Web Speech API, SpeechSynthesis API
+## 🔧 Technologies Used
 
-Backend: FastAPI, Python, Hugging Face Inference API (Helsinki-NLP models)
+- **Frontend:** React, Web Speech API, SpeechSynthesis API  
+- **Backend:** FastAPI, Python, Hugging Face Inference API (Helsinki-NLP models)  
+- **Deployment:** Vercel (frontend), Railway (backend)  
 
-Deployment: Vercel (frontend), Railway (backend)
+---
 
+## 📸 Screenshot  
 
+<p align="center">
+  <img src="./images/translationApp.jpg" alt="Translation App Screenshot" width="600" />
+</p>
 
-📦 Installation & Setup
+---
 
-1️⃣ Clone the repository
-git clone https://github.com/yourusername/healthcare-translation-app.git
+## 📦 Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/EishaQaisar/TranslationWebAPP-GenAI.git
 cd healthcare-translation-app
+```
+### 2️⃣ Setup the Backend (FastAPI)
+```bash
 
-2️⃣ Setup the Backend (FastAPI)
 cd backend
 pip install -r requirements.txt
-
-
+```
 Create a .env file in backend/ with:
 
+```bash
 HF_API_TOKEN=your_huggingface_api_token
+```
+Run the backend:
 
-
-Run backend:
+```bash
 
 uvicorn main:app --reload
+```
+### 3️⃣ Setup the Frontend (React)
+```bash
 
-3️⃣ Setup the Frontend (React)
 cd frontend
 npm install
-
-
+```
 Create a .env file in frontend/ with:
 
+```bash
 REACT_APP_BACKEND_URL=http://localhost:8000
+```
+Run the frontend:
 
-
-Run frontend:
-
+```bash
 npm start
+```
