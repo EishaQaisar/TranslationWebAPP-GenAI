@@ -73,3 +73,9 @@ Run the frontend:
 ```bash
 npm start
 ```
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** – you are welcome to use and modify this code to build your own donation platform, provided you include attribution to the original author.  
+See the [LICENSE](./LICENSE) file for the complete text.
