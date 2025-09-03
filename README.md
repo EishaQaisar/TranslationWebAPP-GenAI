@@ -1,4 +1,6 @@
+
 # 🏥 Translation Web App
+---
 
 A **real-time multilingual translation tool** that leverages Generative AI, speech recognition, and text-to-speech to make communication seamless across languages.
 
